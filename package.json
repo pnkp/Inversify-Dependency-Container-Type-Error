@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "@tsconfig/node22": "^22.0.0",
+    "lerna": "^8.2.1"
+  }
+}

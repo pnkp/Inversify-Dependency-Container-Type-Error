@@ -1,0 +1,16 @@
+{
+  "name": "ecma-code",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "external-package": "*",
+    "inversify": "^7.1.0"
+  }
+}
